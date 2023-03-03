@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator</title>
+    </head>
+    <body>
+        <div class="numform" style="margin-top: 50px; margin-left: 100px;">
+        <form id="form1">
+            <input type="number" name="Num1" placeholder="Enter Number 1" style="padding:5px; width:200px; height:30px;">
+            <input type="number" name="Num2" placeholder="Enter Number 2" style="padding:5px; width:200px;height:30px;">
+        </form>
+        </div>
+        <br>
+        <div class="buttons" style="margin-top: 10px; margin-left: 100px;">
+        <button onclick="Add()" style="width:100px; height:30px;">Add </button>
+        <button onclick="Subtract()"style="width:100px; height:30px;">Subtract </button>
+        <button onclick="Multiply()"style="width:100px; height:30px;">Multiply </button>
+        <button onclick="Divide()"style="width:100px; height:30px;" >Divide </button>
+        <button onclick="Reset()"style="width:100px; height:30px;"> Reset </button>
+        <script src="Calculator.js"></script>
+        <h1 id="result"></h1>
+        </div>
+        
+    </body>
+</html>
